@@ -1,0 +1,64 @@
+.container {
+    width: 300px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  h2 {
+    text-align: center;
+  }
+  
+  input[type="text"],
+  input[type="password"],
+  button {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 10px;
+  }
+  
+  button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+  
+  #message-container {
+    height: 300px;
+    overflow-y: scroll;
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  
+  #message-form input[type="text"],
+  #message-form button {
+    display: inline-block;
+    vertical-align: middle;
+    margin-bottom: 10px;
+  }
+  
+  #message-input {
+    width: 80%;
+    padding: 10px;
+  }
+  
+  #message-form button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+  }
+  
+  #message-form button:hover {
+    background-color: #45a049;
+  }
+  
